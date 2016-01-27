@@ -24,13 +24,22 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "WWWRoot", "http://localhost
 		SlnRelativePath = "WWWRoot\"
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp", "WebApp\WebApp.csproj", "{A598D4C1-1945-49C4-BECD-D39F420F9DA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{F211B705-BA9A-4AAD-95A6-DECFC0D71A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F211B705-BA9A-4AAD-95A6-DECFC0D71A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F211B705-BA9A-4AAD-95A6-DECFC0D71A62}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{F211B705-BA9A-4AAD-95A6-DECFC0D71A62}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{A598D4C1-1945-49C4-BECD-D39F420F9DA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A598D4C1-1945-49C4-BECD-D39F420F9DA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A598D4C1-1945-49C4-BECD-D39F420F9DA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A598D4C1-1945-49C4-BECD-D39F420F9DA7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
