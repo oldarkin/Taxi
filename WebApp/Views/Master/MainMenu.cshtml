@@ -1,38 +1,53 @@
 ﻿<ul class="nav navbar-nav">
-    <li class="active">
-        <a href="#" target="_blank" class="dropdown-toggle" data-toggle="dropdown"
+    <li>
+        <a href="#" target="_blank" class="dropdown-toggle" data-toggle="dropdown" style="font-weight:bold"
            onclick="location.href='@Url.Action("Index", "Home")';">
             Главная
         </a>
     </li>
-    <!-- End Home -->
-    <!-- Pages -->
     <li>
-        <a href="#" target="_blank" class="dropdown-toggle" data-toggle="dropdown"
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" style="font-weight:bold"
            onclick="location.href='@Url.Action("Index", "Evacuation")';">
             Эвакуатор <span style="font-weight: bold; color: red;">SOS!&reg;</span>
         </a>
     </li>
-    <!-- End Pages -->
-    <!-- Blog -->
-    <li>
-        <a href='#' target="_blank" class="dropdown-toggle" data-toggle="dropdown"
+    <li class="dropdown">
+        <a href='#' style="font-weight:bold"
            onclick="location.href='@Url.Action("Index", "CarService")';">
             Автосервис
         </a>
+        <ul class="dropdown-menu">
+            <li><a target="#" style="font-weight:bold">Цены на ремонт Иномарок</a></li>
+            <li><a target="#" style="font-weight:bold">Цены на ремонт Отечественных авто</a></li>
+            <li><a target="#" style="font-weight:bold">Диагностика автомобиля</a></li>
+            <li><a target="#" style="font-weight:bold">Компьютерная диагностика двигателя</a></li>
+            <li><a target="#" style="font-weight:bold">Ремонт моторов</a></li>
+            <li><a target="#" style="font-weight:bold">Ремонт механической КПП</a></li>
+            <li><a target="#" style="font-weight:bold">Ремонт автоматической КПП</a></li>
+            <li><a target="#" style="font-weight:bold">Ремонт ходовой</a></li>
+            <li><a target="#" style="font-weight:bold">Ремонт тормозной системы</a></li>
+            <li><a target="#" style="font-weight:bold">Слесарные работы</a></li>
+            <li><a target="#" style="font-weight:bold">Заказ автозапчастей</a></li>
+            <li><a target="#" style="font-weight:bold">Диагностика ходовой части</a></li>
+            <li><a target="#" style="font-weight:bold">Замена масла АКПП</a></li>
+            <li><a target="#" style="font-weight:bold">Регулярное ТО</a></li>
+        </ul>
     </li>
-    <!-- End Blog -->
-    <!-- Portfolio -->
-    <li>
-        <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-            Автозапчасти
-        </a>
 
+    <li class="dropdown">
+        <a href="#" style="font-weight:bold"
+           onclick="location.href='@Url.Action("Index", "Taxi")';">
+            Такси
+        </a>
+        <ul class="dropdown-menu">
+            <li><a target="#" style="font-weight:bold"><span style="font-weight: bold; color: red;">VIP</span> Такси</a></li>
+            <li><a target="#" style="font-weight:bold">Трансфер</a></li>
+            <li><a target="#" style="font-weight:bold">Такси межгород</a></li>
+            <li><a target="#" style="font-weight:bold">Трезвый водитель</a></li>
+        </ul>
     </li>
-    <!-- End Portfolio -->
-    <!-- Features -->
     <li>
-        <a href="#" target="_blank" class="dropdown-toggle " data-toggle="dropdown"
+        <a href="#" class="dropdown-toggle " data-toggle="dropdown" style="font-weight:bold"
            onclick="location.href='@Url.Action("Index", "Contacts")';">
             Контакты
         </a>

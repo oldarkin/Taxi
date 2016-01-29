@@ -16,5 +16,12 @@ namespace Taxi.Web.Controllers.CarService
             return View();
         }
 
+        public ActionResult PriceInomarki()
+        {
+            CarS
+
+            return View();
+        }
+
     }
 }
