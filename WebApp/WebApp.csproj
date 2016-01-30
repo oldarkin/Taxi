@@ -266,6 +266,7 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
+    <Content Include="Scripts\Price.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="unify\assets\ajax\cube-portfolio\project1.html" />
@@ -3396,10 +3397,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="Scripts\_references.js" />
     <Content Include="Views\Web.config" />
-    <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="unify\assets\php\sky-forms-pro\demo-comment-process.php" />
     <Content Include="unify\assets\php\sky-forms-pro\demo-contacts-process.php" />
@@ -3797,6 +3795,22 @@
     <Content Include="Views\Master\_MasterPage.cshtml" />
     <Content Include="Views\Taxi\Index.cshtml" />
     <Content Include="Views\CarService\PriceInomarki.cshtml" />
+    <Content Include="Views\CarService\PriceRusskie.cshtml" />
+    <Content Include="Views\CarService\Diagnostika.cshtml" />
+    <Content Include="Views\CarService\CompDiagnostika.cshtml" />
+    <Content Include="Views\CarService\Motory.cshtml" />
+    <Content Include="Views\CarService\MehKpp.cshtml" />
+    <Content Include="Views\CarService\Akpp.cshtml" />
+    <Content Include="Views\CarService\Hodovaya.cshtml" />
+    <Content Include="Views\CarService\BreakSystem.cshtml" />
+    <Content Include="Views\CarService\Slesar.cshtml" />
+    <Content Include="Views\CarService\Parts.cshtml" />
+    <Content Include="Views\CarService\DiagHodovka.cshtml" />
+    <Content Include="Views\CarService\MasloAkpp.cshtml" />
+    <Content Include="Views\CarService\TO.cshtml" />
+    <Content Include="Views\Taxi\Transfer.cshtml" />
+    <Content Include="Views\Taxi\MejGorod.cshtml" />
+    <Content Include="Views\Taxi\Voditel.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

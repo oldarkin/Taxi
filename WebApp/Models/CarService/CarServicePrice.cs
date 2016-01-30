@@ -7,6 +7,8 @@ namespace WebApp.Models
 {
     public class CarServicePrice
     {
+        public Guid GroupId { get; set; }
+
         public string GroupName
         { get; set; }
 

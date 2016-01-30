@@ -13,5 +13,20 @@ namespace WebApp.Controllers.Taxi
         {
             return View();
         }
+
+        public ActionResult Transfer()
+        {
+            return View();
+        }
+
+        public ActionResult MejGorod()
+        {
+            return View();
+        }
+
+        public ActionResult Voditel()
+        {
+            return View();
+        }
     }
 }

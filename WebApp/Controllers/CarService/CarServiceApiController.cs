@@ -4,36 +4,64 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using WebApp.Models;
 
 namespace WebApp.Controllers.CarService
 {
     public class CarServiceApiController : ApiController
     {
-        // GET: api/CarServiceApi
-        public IEnumerable<string> Get()
+        [HttpGet]
+        [ActionName("GetPriceInomarki")]
+        public List<CarServicePrice> GetInomarki()
         {
-            return new string[] { "value1", "value2" };
+            List<CarServicePrice> result = new List<CarServicePrice>();
+
+            CarServicePrice item = new CarServicePrice() { GroupName = "Group 1", GroupId = Guid.NewGuid() };
+            item.PriceItems = new List<CarServicePriceItem>();
+            item.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 1", Price = 200 });
+
+            result.Add(item);
+
+            CarServicePrice item1 = new CarServicePrice() { GroupName = "Group 1", GroupId = Guid.NewGuid() };
+            item1.PriceItems = new List<CarServicePriceItem>();
+            item1.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 2", Price = 350 });
+
+            result.Add(item1);
+
+            CarServicePrice item2 = new CarServicePrice() { GroupName = "Group 2", GroupId = Guid.NewGuid() };
+            item2.PriceItems = new List<CarServicePriceItem>();
+            item2.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 3", Price = 700 });
+
+            result.Add(item2);
+
+            return result;
         }
 
-        // GET: api/CarServiceApi/5
-        public string Get(int id)
+        [HttpGet]
+        [ActionName("GetPriceRusskie")]
+        public List<CarServicePrice> GetRusskie()
         {
-            return "value";
-        }
+            List<CarServicePrice> result = new List<CarServicePrice>();
 
-        // POST: api/CarServiceApi
-        public void Post([FromBody]string value)
-        {
-        }
+            CarServicePrice item = new CarServicePrice() { GroupName = "Group 4", GroupId = Guid.NewGuid() };
+            item.PriceItems = new List<CarServicePriceItem>();
+            item.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 1", Price = 200 });
 
-        // PUT: api/CarServiceApi/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+            result.Add(item);
 
-        // DELETE: api/CarServiceApi/5
-        public void Delete(int id)
-        {
+            CarServicePrice item1 = new CarServicePrice() { GroupName = "Group 4", GroupId = Guid.NewGuid() };
+            item1.PriceItems = new List<CarServicePriceItem>();
+            item1.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 2", Price = 350 });
+
+            result.Add(item1);
+
+            CarServicePrice item2 = new CarServicePrice() { GroupName = "Group 5", GroupId = Guid.NewGuid() };
+            item2.PriceItems = new List<CarServicePriceItem>();
+            item2.PriceItems.Add(new CarServicePriceItem() { Id = Guid.NewGuid(), Name = "Ремонт 3", Price = 700 });
+
+            result.Add(item2);
+
+            return result;
         }
     }
 }
