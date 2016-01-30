@@ -13,6 +13,7 @@ namespace Taxi.Web.Controllers.Home
 
         public ActionResult Index()
         {
+            ViewBag.Phone = "Автоэвакуатор (круглосуточно) : (846) 274-55-66";
             return View();
         }
 

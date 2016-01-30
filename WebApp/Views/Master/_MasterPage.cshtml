@@ -21,7 +21,7 @@
     @Styles.Render("~/unify/pricing")
     @Styles.Render("~/unify/custom")
     @Styles.Render("~/unify/color")
-    
+
 </head>
 <body>
     <div class="wrapper">
@@ -29,12 +29,17 @@
             <div class="container">
 
                 <a class="logo" href="index.html">
-                    <img src="logo.png" alt="Logo" width="102px" height="38px">
+                    <img src="~/logo.png" alt="Logo" width="102px" height="38px">
                 </a>
 
                 <div class="title-v1" style="color:red; text-align:right; margin-top:10px;margin-right:30px; margin-bottom:-10px">
                     <h3 style="color:red">
-                        <strong>Автоэвакуатор (круглосуточно) : (846) 274-55-66</strong>
+                        @if (ViewBag.Phone != null)
+                        { <strong>
+                            @ViewBag.Phone
+                        </strong> }
+                        else
+                        { <strong> Автоэвакуатор (круглосуточно) : (846) 274-55-66 </strong> }
                     </h3>
                 </div>
 
@@ -50,9 +55,6 @@
         </div>
         <div>
             @RenderBody()
-        </div>
-        <div class="container content-sm" style="margin-top:-80px">
-            @Html.Partial("~/Views/Master/OurClients.cshtml")
         </div>
 
         @Html.Partial("~/Views/Master/ButtomMenu.cshtml")
@@ -71,7 +73,7 @@
     @Scripts.Render("~/bundles/jscustom")
     @Scripts.Render("~/bundles/pagelevel")
     @Scripts.Render("~/bundles/yandex")
-    
+
 
     <script type="text/javascript">
         jQuery(document).ready(function () {
