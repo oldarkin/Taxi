@@ -10,7 +10,7 @@
         <div class="container">
             <div class="img-center">
                 @*<img class="img-responsive" src="unify/assets/img/mockup/mockup.png" alt="">*@
-                <img class="img-responsive rounded-3x" src="img/service3.jpg" alt="">
+                <img class="img-responsive rounded-3x" src="~/img/service3.jpg" alt="">
             </div>
             <div class="title-v1">
                 <h1>Профессиональный автосервис в Самаре</h1>
@@ -119,6 +119,25 @@
     <div class="about-image bg-grey">
         <div class="container">
             <div class="title-v1">
+                <h1>Для всех наших клиентов доступна бесплатная услуга автоэвакуатора*</h1>
+            </div>
+            <div class="img-center">
+                @*<img class="img-responsive" src="unify/assets/img/mockup/mockup.png" alt="">*@
+                <img class="img-responsive rounded-3x" src="~/img/evac3s.jpg" alt="">
+            </div>
+            <div class="title-v1">
+                <br />
+                <p>Если по каким то причинам Ваш автомобиль не на ходу
+                </p>
+                <p> наш <span style="color:red; font-weight:bold">автоэвакуатор в Самаре бесплатно</span> доставит его в наш автосервис для последующего авторемонта</p>
+                <small>Уточняйте условие использование услуги автоэвакуатора у нашего менеджера по телефону: 274-71-71</small>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-image bg-grey">
+        <div class="container">
+            <div class="title-v1">
                 <h1>Звоните и приезжайте</h1>
                 <h1>Наши телефоны:</h1>
                 <h1>275 - 71 - 71</h1>
@@ -137,7 +156,7 @@
 
     <br />
 
-    <div class="about-image bg-grey">
+    <div class="about-image">
         <div class="container">
             <div class="title-v1">
                 <h1>Для такси и организаций</h1>
@@ -145,11 +164,14 @@
                     В нашей компании действую особые условия обслуживания для машин такси и юридических лиц.
                 </p>
                 <p>
-                    Мы с радостью готовы чинить машины за БЕЗналичный расчет
+                    Мы работаем за наличный и безналичный расчет
                 </p>
             </div>
         </div>
     </div>
+
+    <br />
+    <br />
 
     <div class="container content-sm" style="margin-top:-80px">
         @Html.Partial("~/Views/Master/CarsModel.cshtml")
