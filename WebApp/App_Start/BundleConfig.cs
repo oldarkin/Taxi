@@ -50,6 +50,9 @@ namespace WebApp
             bundles.Add(new ScriptBundle("~/bundles/yandex").Include(
                         "~/scripts/yandex.js"));
 
+            bundles.Add(new ScriptBundle("~/bundles/google").Include(
+            "~/scripts/google.js"));
+
             bundles.Add(new ScriptBundle("~/bundles/rice").Include(
                         "~/Scripts/Price.js"));
 
@@ -90,7 +93,8 @@ namespace WebApp
 
             //<link rel="stylesheet" href="unify/assets/css/pages/pricing/pricing_v1.css">
             bundles.Add(new StyleBundle("~/unify/pricing").Include(
-                    "~/unify/assets/css/pages/pricing/pricing_v1.css"));
+                    "~/unify/assets/css/pages/pricing/pricing_v1.css",
+                    "~/unify/assets/css/pages/pricing/pricing_v8.css"));
 
 
             //    <!-- CSS Customization -->

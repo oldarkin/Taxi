@@ -34,5 +34,11 @@ namespace WebApp.Controllers.Taxi
             ViewBag.Phone = string.Format("Служба заказа : {0}", Phone);
             return View();
         }
+
+        public ActionResult VoditelVD()
+        {
+            ViewBag.Phone = string.Format("Служба заказа : {0}", Phone);
+            return View();
+        }
     }
 }

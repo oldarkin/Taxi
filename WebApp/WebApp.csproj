@@ -247,21 +247,28 @@
     <Content Include="img\car_logo\car_logo_PNG1666.png" />
     <Content Include="img\car_logo\car_logo_PNG1667.png" />
     <Content Include="img\diag.jpg" />
+    <Content Include="img\driver.jpg" />
+    <Content Include="img\driver1.jpg" />
     <Content Include="img\evac1.JPG" />
     <Content Include="img\evac2.jpg" />
     <Content Include="img\evac3.jpg" />
+    <Content Include="img\evac3s.jpg" />
     <Content Include="img\hodovka-diag.jpg" />
     <Content Include="img\hodov_rem.jpg" />
     <Content Include="img\komp-diagnistika.jpg" />
     <Content Include="img\kpp.jpg" />
     <Content Include="img\maslo-akpp.png" />
     <Content Include="img\motor.jpg" />
+    <Content Include="img\motor1.jpg" />
+    <Content Include="img\motor2.jpg" />
     <Content Include="img\parts.jpg" />
     <Content Include="img\remont-tormozov.jpg" />
     <Content Include="img\service1.jpg" />
     <Content Include="img\service2.jpg" />
     <Content Include="img\service3.jpg" />
     <Content Include="img\slesarnye-raboty.jpg" />
+    <Content Include="img\taxi.jpg" />
+    <Content Include="img\taxi1.jpg" />
     <Content Include="img\TO.jpg" />
     <Content Include="logo-source.png" />
     <Content Include="logo.png" />
@@ -288,6 +295,7 @@
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="img\service3.jpg.old" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\google.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />
@@ -299,6 +307,7 @@
     <Content Include="Scripts\Price.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
+    <Content Include="Scripts\yandex.js" />
     <Content Include="unify\assets\ajax\cube-portfolio\project1.html" />
     <Content Include="unify\assets\ajax\cube-portfolio\project2.html" />
     <Content Include="unify\assets\ajax\cube-portfolio\project3.html" />
@@ -3843,6 +3852,7 @@
     <Content Include="Views\Taxi\Voditel.cshtml" />
     <Content Include="Views\Master\MasterService.cshtml" />
     <Content Include="Views\Master\CarsModel.cshtml" />
+    <Content Include="Views\Taxi\VoditelVD.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

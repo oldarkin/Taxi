@@ -3,17 +3,22 @@
     Layout = "~/Views/Master/_MasterPage.cshtml";
 }
 
-<!--  About Section -->
-<section id="main-section" class="about-section section-first" style="margin-top:30px; margin-bottom:30px;">
-
-    <div class="about-image bg-grey">
-        <div class="container">
-            <div class="img-center">
-                @*<img class="img-responsive" src="unify/assets/img/mockup/mockup.png" alt="">*@
-                <img class="img-responsive" src="img/evac2.jpg" alt="">
+<div class="bg-color-light">
+    <div class="container content-md">
+        <div class="row about-me">
+            <div class="col-sm-4 shadow-wrapper md-margin-bottom-40">
+                <div class="box-shadow shadow-effect-2">
+                    <img class="img-responsive img-bordered full-width" src="~/img/evac1.jpg" alt="Эвакуатор в самаре для легковой">
+                    <br />
+                    <img class="img-responsive img-bordered full-width" src="~/img/evac3.jpg" alt="Эвакуатор в самаре для джипа">
+                    <br />
+                    <img class="img-responsive img-bordered full-width" src="~/img/evac2.jpg" alt="Заказать эвакуатор в Самаре">
+                </div>
             </div>
-            <div class="title-v1">
-                <h1>Эвакуаторы <span style="font-weight: bold; color: red;">SOS!&reg;</span> в Самаре – круглосуточная эвакуация автомобилей компанией «Альянс плюс».</h1>
+
+            <div class="col-sm-8" style="font-size:large">
+                <h1 style="color:red">Эвакуаторы круглосуточно - SOS!&reg;</h1>
+                <h1>Круглосуточная эвакуация автомобилей в Самаре компанией «Альянс плюс».</h1>
                 <p>
                     Внезапная поломка, случайное ДТП или внештатная ситуация могут доставить владельцу автомобиля ряд проблем, среди которых потеря драгоценного времени. Решить их можно оперативно и легко, достаточно позвонить в компанию «Альянс плюс» и заказать выезд эвакуатора до вашего месторасположения.
                 </p>
@@ -24,89 +29,134 @@
                     Эвакуатор можно вызвать по номеру телефона <strong>(846) 274-55-66</strong>. Сделайте звонок, и мы быстро транспортируем вашу машину в указанное место.
                 </p>
                 <br />
+                <div class="panel panel-red margin-bottom-40">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-user"></i>Тарифы на услуги эвакуации</h3>
+                    </div>
+                    <div class="panel-body" style="color:black;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">#</th>
+                                    <th style="width:75%">Вид услуги</th>
+                                    <th style="width:20%">Цена</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Эвакуация легковых иномарок</td>
+                                    <td>от 1300 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Эвакуация отечественных машин</td>
+                                    <td>от 1100 р.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Эвакуация иномарок весом от 2 до 3 тонн (Газель, Джипов, Нива Шевроле)</td>
+                                    <td>от 1500 р.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <p>
+                    В ситуациях, когда автомобиль попал в дорожно-транспортное происшествие и дальше не может осуществлять движение, требуется помощь спецтехники, которая доставит машину по указанному адресу. Если вы оказались в такой сложной ситуации, то на помощь всегда готова прийти наша компания «Альянс плюс». Всё что от вас требуется – связаться с нами, и мы незамедлительно отправим к месту происшествия эвакуатор, который будет подобран сотрудниками под конкретный выезд для решения ваших проблем.
+                </p>
                 <br />
-                <h1>Наши тарифы</h1>
+                <div class="panel panel-red margin-bottom-40">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-user"></i>Дополнительные сложности при погрузке:</h3>
+                    </div>
+                    <div class="panel-body" style="color:black;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">#</th>
+                                    <th style="width:75%">Вид услуги</th>
+                                    <th style="width:20%">Цена</th>
+                                </tr>
+                            </thead>
+                            <tbody style="height:200px">
+                                <tr>
+                                    <td>1</td>
+                                    <td>Не крутится одно колесо</td>
+                                    <td>300 руб.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Не крутятся два колеса</td>
+                                    <td>600 руб.</td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Не крутятся три колеса</td>
+                                    <td>900 руб.</td>
+                                </tr>
+                                <tr>
+                                    <td>4</td>
+                                    <td>Не крутятся четыре колеса</td>
+                                    <td>от 1200 руб.</td>
+                                </tr>
+                                <tr>
+                                    <td>5</td>
+                                    <td>Стоимость одного часа погрузки</td>
+                                    <td>от 1000 руб.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <h2>Наши преимущества</h2>
+                <p>С нами выгодно сотрудничать по целому ряду причин, а именно:</p>
+                <ul>
+                    <li>Круглосуточная и оперативная помощь. Независимо от того, когда вы попали в неприятную ситуацию на дороге, наши эвакуаторы 24 часа в сутки находятся на дежурстве и готовы отреагировать на вызов в течение первых 10-20 минут. Где бы вы не находились, в городе или за его пределами, долго ждать мы вас не заставим;</li>
+                    <li>Большой опыт работы и профессионализм персонала. За время работы по эвакуации транспортных средств, мы успели собрать сплоченную команду специально обученных и высококвалифицированных работников: водителей, менеджеров и логистов. Именно благодаря ежедневному труду каждого нашего сотрудника, мы можем эффективно выполнять даже самые сложные поставленные задачи;</li>
+                    <li>Техническое оснащение. Все наши эвакуаторы отечественного и иностранного производства оснащены системами фиксирующих и вспомогательных тросов, а также другим дополнительным оборудованием, которое позволяет проводить эвакуацию в осложненных условиях, таких как подъем автомобилей из ям, кюветов, болот, вытаскивание из подземных гаражей, перекрытых выездов, снежных заносов, деликатную погрузку и транспортировку машин с заблокированным рулём, вышедшей из строя тормозной системой или с отсутствующими колесами;</li>
+                    <li>Демократичные цены. Мы заботимся не только о широком спектре предоставляемой помощи и наличии техники, но и о доступности наших услуг. Ведь крайне важно, чтобы любой человек независимо от своего статуса смог воспользоваться услугами эвакуатора.</li>
+                    <li>Работа не только по Самаре но и по области.</li>
+                </ul>
+                <br />
+                <div class="panel panel-green margin-bottom-40">
+                    <div class="panel-heading">
+                        <h3 class="panel-title"><i class="fa fa-user"></i>Доставка автомобилей за пределами г. Самара* осуществляется из расчета действующего тарифа, который указан в пункте 1 этого Приложения. В стоимость добавляется дополнительная цена за каждый километр пробега:</h3>
+                    </div>
+                    <div class="panel-body" style="color:black;">
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th style="width:5%">#</th>
+                                    <th style="width:75%">Вид услуги</th>
+                                    <th style="width:20%">Цена</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>из Самары</td>
+                                    <td>35 руб.</td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>в Самару</td>
+                                    <td>45 руб.</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <br />
+                <h2>Предоставляемые услуги</h2>
+                <br />
+                <ul>
+                    <li>Эвакуация легковой иномарки. Опытные сотрудники компании «Альянс плюс» уже долгое время занимаются перевозкой иномарок на любые расстояния. Погрузка легковых иномарок осуществляется максимально безопасно и быстро, теперь вы можете быть уверенны, что ваше транспортное средство в надежных руках;</li>
+                    <li>Эвакуация транспортных средств весом до 2 тонн. Так как на дорогах участи-лись случаи дорожно-транспортных происшествий, в частности, с легковыми машинами, мы помогаем выполнить погрузку и перевозку любых транспортных средств с небольшим весом, к которым относятся скутера, мотоциклы и легковые машины. Для того чтобы надежно прикрепить мотоцикл к платформе эвакуатора, требуется наличие крепежных ремней и других фиксирующих приспособлений, которые мы готовы вам предоставить;</li>
+                    <li>Эвакуация транспортных средств весом свыше 2 тонн. Для того, чтобы максимально удовлетворять потребности заказчиков, существует услуга по перевозки машин крупных габаритов и с большим весом. Погрузка внедорожников, микроавтобусов, минивэнов и газелей соответствует всем установленным нормам безопасности.</li>
+                </ul>
             </div>
         </div>
-    </div>
-
-</section>
-
-<div class="wrapper" style="margin-top:-70px;">
-    <div class="container content">
-
-        <!-- Pricing Table v1-->
-        <div class="row pricing-table-v1 no-space-pricing">
-
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="pricing-v1 pricing-v1-green">
-                    <div class="pricing-v1-head text-center">
-                        <h4>Автосервис</h4>
-                        <h5>0.99<span>Р</span></h5>
-                    </div>
-                    <ul class="list-unstyled pricing-v1-content">
-                        <li><i class="fa fa-check-circle-o"></i>Подача в течение 1-2 часа</li>
-                        <li><i class="fa fa-check-circle-o"></i>С 8.00 до 18.00</li>
-                        <li><i class="fa fa-check-circle-o"></i>Доставка до нашего Автосервиса</li>
-                    </ul>
-                    <div class="pricing-v1-footer">
-                        <a href="#" class="btn-u btn-block text-center">Заказать</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="pricing-v1 pricing-v1-blue">
-                    <div class="pricing-v1-head">
-                        <div class="sticker-left">Скидка</div>
-                        <h4 class="text-center">Стандарт</h4>
-                        <h5 class="text-center">1300<span>Р</span></h5>
-                    </div>
-                    <ul class="list-unstyled pricing-v1-content">
-                        <li><i class="fa fa-check-circle-o"></i>Подача в течение 1-2 часа</li>
-                        <li><i class="fa fa-check-circle-o"></i>Круглосуточно</li>
-                        <li><i class="fa fa-check-circle-o"></i>Загород - от 20 р. за км.</li>
-                    </ul>
-                    <div class="pricing-v1-footer">
-                        <a href="#" class="btn-u btn-u-blue btn-block text-center">Заказать</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="pricing-v1 pricing-v1-red">
-                    <div class="pricing-v1-head">
-                        <h4 class="text-center">Джип</h4>
-                        <h5 class="text-center">1500<span>Р</span></h5>
-                    </div>
-                    <ul class="list-unstyled pricing-v1-content">
-                        <li><i class="fa fa-check-circle-o"></i>Подача в течение 1-2 часа</li>
-                        <li><i class="fa fa-check-circle-o"></i>Круглосуточно</li>
-                        <li><i class="fa fa-check-circle-o"></i>Загород - от 22 р. за км.</li>
-                    </ul>
-                    <div class="pricing-v1-footer text-center">
-                        <a href="#" class="btn-u btn-u-red btn-block text-center">Заказать</a>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-3 col-sm-3 col-xs-6">
-                <div class="pricing-v1 pricing-v1-brown">
-                    <div class="pricing-v1-head">
-                        <h4 class="text-center">Вип</h4>
-                        <h5 class="text-center">от 1500<span>Р</span></h5>
-                    </div>
-                    <ul class="list-unstyled pricing-v1-content">
-                        <li><i class="fa fa-check-circle-o"></i>Подача от 30 мин.</li>
-                        <li><i class="fa fa-check-circle-o"></i>Круглосуточно</li>
-                        <li><i class="fa fa-check-circle-o"></i>Загород - от 22 р. за км.</li>
-                        <li><i class="fa fa-check-circle-o"></i>Такси до дома</li>
-                    </ul>
-                    <div class="pricing-v1-footer">
-                        <a href="#" class="btn-u btn-u-brown btn-block text-center">Заказать</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!--/row-->
-        <!-- End Pricing Table v1 -->
-
     </div>
 </div>
