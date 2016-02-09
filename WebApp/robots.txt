@@ -1,0 +1,3 @@
+﻿User-agent: *
+Disallow: /unify
+Sitemap: http://samara-allians.ru/sitemap.xml

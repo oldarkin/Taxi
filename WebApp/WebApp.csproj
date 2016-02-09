@@ -272,6 +272,7 @@
     <Content Include="img\TO.jpg" />
     <Content Include="logo-source.png" />
     <Content Include="logo.png" />
+    <Content Include="robots.txt" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\HelpPage\Views\Web.config" />
@@ -294,6 +295,7 @@
     <Content Include="Areas\HelpPage\Views\Help\DisplayTemplates\ApiGroup.cshtml" />
     <Content Include="Areas\HelpPage\Views\Help\Api.cshtml" />
     <Content Include="img\service3.jpg.old" />
+    <None Include="Properties\PublishProfiles\Pub.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\google.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -308,6 +310,7 @@
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
     <Content Include="Scripts\yandex.js" />
+    <Content Include="sitemap.xml" />
     <Content Include="unify\assets\ajax\cube-portfolio\project1.html" />
     <Content Include="unify\assets\ajax\cube-portfolio\project2.html" />
     <Content Include="unify\assets\ajax\cube-portfolio\project3.html" />
@@ -3425,7 +3428,9 @@
     <Content Include="unify\shortcode_typo_headings.html" />
     <Content Include="unify\shortcode_typo_tagline_boxes.html" />
     <Content Include="unify\shortcode_typo_testimonials.html" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
