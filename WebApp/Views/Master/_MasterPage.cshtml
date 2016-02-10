@@ -10,8 +10,15 @@
     <link rel="icon" href="~/ev1.png">
     <link rel="shortcut icon" href="~/ev1.png" type="image/png">
 
-    <meta name="description" content="">
-    <meta name="author" content="">
+    @if (ViewBag.MetaDescription != null)
+    {
+        <meta name="description" content="@ViewBag.MetaDescription" />
+    }
+
+    @if (ViewBag.MetaKeywords != null)
+    {
+        <meta name="keywords" content="@ViewBag.MetaKeywords" />
+    }
 
     <!-- Web Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
