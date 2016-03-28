@@ -33,11 +33,11 @@
                         <h2>Быстрый переход</h2>
                     </div>
                     <ul class="list-unstyled link-list">
-                        <li><a href="#">О компании</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Контакты</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Эвакуатор</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Автосервис</a><i class="fa fa-angle-right"></i></li>
-                        <li><a href="#">Запчасти</a><i class="fa fa-angle-right"></i></li>
+                        <li style="display:none"><a href="#">О компании</a><i class="fa fa-angle-right"></i></li>
+                        <li><a href='@Url.Action("Index", "Contacts")'>Контакты</a><i class="fa fa-angle-right"></i></li>
+                        <li><a href='@Url.Action("Index", "Evacuation")'>Эвакуатор</a><i class="fa fa-angle-right"></i></li>
+                        <li><a href='@Url.Action("Index", "CarService")'>Автосервис</a><i class="fa fa-angle-right"></i></li>
+                        <li style="display:none"><a href="#">Запчасти</a><i class="fa fa-angle-right"></i></li>
                     </ul>
                 </div>
                 <!--/col-md-3-->

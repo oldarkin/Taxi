@@ -11,7 +11,7 @@ namespace Taxi.Web.Controllers.CarService
         //
         // GET: /CarService/
 
-        public static string Phone = "(846) 274-71-71";
+        public static string Phone = "(846) 275-71-71";
         public static string Adress = "Черемшанская 126";
 
         public ActionResult Index()
