@@ -53,7 +53,7 @@ namespace WebApp
             bundles.Add(new ScriptBundle("~/bundles/google").Include(
             "~/scripts/google.js"));
 
-            bundles.Add(new ScriptBundle("~/bundles/rice").Include(
+            bundles.Add(new ScriptBundle("~/bundles/price").Include(
                         "~/Scripts/Price.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

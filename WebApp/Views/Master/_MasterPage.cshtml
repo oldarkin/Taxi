@@ -23,12 +23,24 @@
     <!-- Web Fonts -->
     <link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
 
-    @Styles.Render("~/unify/globalcss")
-    @Styles.Render("~/unify/headfoot")
-    @Styles.Render("~/unify/csspluguns")
-    @Styles.Render("~/unify/pricing")
-    @Styles.Render("~/unify/custom")
-    @Styles.Render("~/unify/color")
+    <link rel="stylesheet" href="~/unify/assets/plugins/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="~/unify/assets/css/style.css">
+
+    <link rel="stylesheet" href="~/unify/assets/css/headers/header-default.css">
+    <link rel="stylesheet" href="~/unify/assets/css/footers/footer-v1.css">
+
+    <link rel="stylesheet" href="~/unify/assets/plugins/animate.css">
+    <link rel="stylesheet" href="~/unify/assets/plugins/line-icons/line-icons.css">
+    <link rel="stylesheet" href="~/unify/assets/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/unify/assets/plugins/parallax-slider/css/parallax-slider.css">
+    <link rel="stylesheet" href="~/unify/assets/plugins/owl-carousel/owl-carousel/owl.carousel.css">
+
+    
+    <link rel="stylesheet" href="~/unify/assets/css/pages/pricing/pricing_v1.css">
+    <link rel="stylesheet" href="~/unify/assets/css/pages/pricing/pricing_v8.css">
+
+    <link rel="stylesheet" href="~/unify/assets/css/custom.css">
+    <link rel="stylesheet" href="~/unify/assets/css/theme-colors/blue.css">
 
 </head>
 <body>
@@ -39,6 +51,12 @@
                 <a class="logo" href="#" onclick="location.href = '@Url.Action("Index", "Home")';">
                     <img src="~/logo.png" alt="Logo" width="102px" height="38px">
                 </a>
+
+                <!-- Toggle get grouped for better mobile display -->
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="fa fa-bars"></span>
+                </button>
 
                 <div class="title-v1" style="color:red; text-align:right; margin-top:10px;margin-right:30px; margin-bottom:-10px">
                     <h3 style="color:red">
@@ -71,17 +89,23 @@
     </div>
 
     <!-- JS Global Compulsory -->
-    @Scripts.Render("~/bundles/jquery")
-    @Scripts.Render("~/bundles/bootstrap")
-
+    <script type="text/javascript" src="~/unify/assets/plugins/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="~/unify/assets/plugins/jquery/jquery-migrate.min.js"></script>
+    <script type="text/javascript" src="~/unify/assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="~/unify/assets/plugins/back-to-top.js"></script>
+    <script type="text/javascript" src="~/unify/assets/plugins/smoothScroll.js"></script>
+    <script type="text/javascript" src="~/unify/assets/plugins/gmap/gmap.js"></script>    
+    <script type="text/javascript" src="~/unify/assets/plugins/owl-carousel/owl-carousel/owl.carousel.js"></script>
+    <script type="text/javascript" src="~/unify/assets/js/custom.js"></script>
 
-    @Scripts.Render("~/bundles/plugins")
-    @Scripts.Render("~/bundles/jscustom")
-    @Scripts.Render("~/bundles/pagelevel")
-    @Scripts.Render("~/bundles/yandex")
-    @Scripts.Render("~/bundles/google")
-
+    
+    <script type="text/javascript" src="~/unify/assets/js/app.js"></script>
+    <script type="text/javascript" src="~/unify/assets/js/pages/page_contacts.js"></script>
+    <script type="text/javascript" src="~/unify/assets/js/plugins/owl-carousel.js"></script>
+    
+    <script type="text/javascript" src="~/scripts/yandex.js"></script>
+    <script type="text/javascript" src="~/scripts/google.js"></script>
 
     <script type="text/javascript">
         jQuery(document).ready(function () {
@@ -90,10 +114,11 @@
             OwlCarousel.initOwlCarousel();
         });
     </script>
+
     <!--[if lt IE 9]>
-        <script src="assets/plugins/respond.js"></script>
-        <script src="assets/plugins/html5shiv.js"></script>
-        <script src="assets/plugins/placeholder-IE-fixes.js"></script>
+        <script src="/unify/assets/plugins/respond.js"></script>
+        <script src="/unify/assets/plugins/html5shiv.js"></script>
+        <script src="/unify/assets/plugins/placeholder-IE-fixes.js"></script>
     <![endif]-->
 
 </body>

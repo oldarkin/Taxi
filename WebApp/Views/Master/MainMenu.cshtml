@@ -1,16 +1,16 @@
 ﻿<ul class="nav navbar-nav">
-    <li>
+    <li class="dropdown">
         <a href='@Url.Action("Index", "Home")' target="_blank" class="dropdown-toggle" style="font-weight:bold">
             Главная
         </a>
     </li>
-    <li>
+    <li class="dropdown">
         <a href='@Url.Action("Index", "Evacuation")' class="dropdown-togle" style="font-weight:bold">
             Эвакуатор <span style="font-weight: bold; color: red;">SOS!&reg;</span>
         </a>
     </li>
     <li class="dropdown">
-        <a href='@Url.Action("Index", "CarService")' style="font-weight:bold">
+        <a href='@Url.Action("Index", "CarService")' style="font-weight:bold" class="dropdown-toggle" data-toggle="dropdown">
             Автосервис
         </a>
         <ul class="dropdown-menu">
